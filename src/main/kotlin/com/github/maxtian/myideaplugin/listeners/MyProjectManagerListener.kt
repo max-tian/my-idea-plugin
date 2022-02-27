@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.maxtian.myideaplugin.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.maxtian.myideaplugin.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
